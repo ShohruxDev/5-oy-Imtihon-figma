@@ -1,6 +1,9 @@
 
 const cartCount = document.querySelector('.count');
 const plusBtn = document.querySelector('.plus-btn');
+const btnplus = document.querySelector('.btn-plus')
+const plust = document.querySelector('.pl-bs')
+const luty = document.querySelector('.al-erw')
 // var count = localStorage.getItem('cartCount') ?? 0;
 let count = 0
 plusBtn.addEventListener('click',(e)=>{
@@ -9,7 +12,24 @@ plusBtn.addEventListener('click',(e)=>{
     cartCount.textContent = count;
     localStorage.setItem('cartCount',count)
 })
-
+btnplus.addEventListener('click',(e)=>{
+    e.preventDefault()
+    count+=1;
+    cartCount.textContent = count;
+    localStorage.setItem('cartCount',count)
+})
+plust.addEventListener('click',(e)=>{
+    e.preventDefault()
+    count+=1;
+    cartCount.textContent = count;
+    localStorage.setItem('cartCount',count)
+})
+luty.addEventListener('click',(e)=>{
+    e.preventDefault()
+    count+=1;
+    cartCount.textContent = count;
+    localStorage.setItem('cartCount',count)
+})
 const toggleButton1 = document.getElementById('toggleButton1');
 const toggleButton2 = document.getElementById('toggleButton2');
 const section2 = document.getElementById('section2');
