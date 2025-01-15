@@ -1,0 +1,111 @@
+@media screen and (max-width: 650px){
+.furniture{
+    a{
+        display: none;
+    }
+}
+.room{
+    b{
+        font-size: 24px;
+        width: 80%;
+    }
+    p{
+        font-size: 17px;
+        width: 80%;
+    }
+    input{
+        width: 50%;
+    }
+}
+.choos{
+    flex-direction: column;
+}
+.cos-0{
+    width: 100%;
+}
+.cos-1{
+    width: 100%;
+}
+.best{
+    flex-direction: column-reverse;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.best-1{
+    width: 90%;
+    h3{
+        font-size: 18px;
+    }
+    b{
+        font-size: 24px;
+        width: 80%;
+    }
+}
+.best-0{
+    width: 90%;
+}
+.making{
+    flex-direction: column-reverse;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.maki{
+    width: 100%;
+    h3{
+     font-size: 24px;
+     width: 80%;
+    }
+}
+.maki-0{
+    width: 100%;
+}
+.rewiews{
+    b{
+        font-size: 24px;
+    }
+}
+.sukijan{
+    width: 70vw;
+}
+.dert{
+    margin-bottom: 30vh;
+    width: 70vw;
+    height: 50vh;
+}
+.footer{
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 50px;
+}
+.advan{
+    width: 100%;
+    b{
+        font-size: 24px;
+    }
+}
+.arvan{
+    width: 50%;  
+    b{
+        font-size:16px;
+    } 
+}
+.face{
+    p{
+        font-size: 12px;
+    }
+}
+.ardan{
+    margin-left: 23%;
+}
+.foter{
+    p{
+        font-size: 12px;
+    }
+}
+.balstar{
+    flex-wrap: wrap;
+}
+.bal-0{
+   width: 46%;
+}
+}
